@@ -1,0 +1,13 @@
+.cursor{
+  z-index: 1000;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  position: fixed;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}

@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 26px;
+  margin-bottom: 10vh;
+}
+.single {
+  padding: 2px 16px;
+  margin: 6px 10px;
+}
+.single:hover {
+  border-left: 1px solid #1DA149;
+}
+
+@media (max-width: 1048px) {
+  .main {
+    margin: 0 5vw 10vh;
+  }
+}

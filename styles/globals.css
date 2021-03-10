@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  /* cursor: none; */
+}
+
+html, body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #f2f2f2;
+  color:  #333;
+  font-family: "Roboto Mono";
+  background: linear-gradient(#eff0f3, #6474cc);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+/* Navbar styles */
+nav {
+  margin: 10px auto 6rem;
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: 1px solid #ddd;
+}
+nav a {
+  margin-left: 12px;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+  text-decoration: underline;
+}
+nav .logo {
+  margin-right: auto;
+}
+/* footer styles */
+footer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(144, 145, 202);
+  color: rgb(28, 29, 87, 0.5);
+}
+/* 404 styles */
+.not-found {
+  text-align: center;
+}
+.not-found a{
+  color: #315ACC;
+  text-decoration: underline;
+}
+.about-text, .contact-text {
+  line-height: 26px;
+}
+
+/* global mobile styles */
+@media (max-width: 1048px) {
+  .content {
+    margin: 0 auto;
+    min-height: 80vh;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav {
+    margin-right: 12px;
+  }
+}
